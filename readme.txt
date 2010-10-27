@@ -27,7 +27,7 @@ FIRST METHOD (Have FTP access)
 
 1. Download the plugin
 2. Extract the downloaded plugin.
-3. Rename the folder name "SteveLee-WebfontsWordpressJsonWithEditor-a451aec" to "WebfontsWordpressJsonWithEditor".
+3. Rename the folder name "SteveLee-WebfontsWordpressJsonWithEditor-4a55b45" to "WebfontsWordpressJsonWithEditor".
 4. GO to your ftp browser and go to the /wp-content/plugins/ directory.
 5. Upload "WebfontsWordpressJsonWithoutEditor" folder to the `/wp-content/plugins/` directory
 6. Activate the 'Webfonts' plugin through the 'Plugins' menu in WordPress
@@ -36,7 +36,7 @@ SECOND METHOD (Don't have FTP accesss)
 
 1. Downlaod the plugin.
 2. Extract the downloaded plugin.
-3. Rename the folder name "SteveLee-WebfontsWordpressJsonWithEditor-a451aec" to "WebfontsWordpressJsonWithEditor".
+3. Rename the folder name "SteveLee-WebfontsWordpressJsonWithEditor-4a55b45" to "WebfontsWordpressJsonWithEditor".
 4. Again archive(zip) the renamed folder.
 5. GO to WP plugin adding page.
 6. Install the newly zipped file.
