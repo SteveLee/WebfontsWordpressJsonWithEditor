@@ -2,7 +2,7 @@
 Copyright 2010 Monotype Imaging Inc.  
 This program is distributed under the terms of the GNU General Public License
 */
-var FOLDER_NAME_CK = 'WebfontsWordpressJsonWithEditor';
+var FOLDER_NAME_CK = 'webfontswordpressjsonwitheditor';
 if(document.getElementById("content")){CKEDITOR.replace("content");}
 jQuery(document).ready(function(){
 if(document.getElementById("comment")){CKEDITOR.replace("comment");}
