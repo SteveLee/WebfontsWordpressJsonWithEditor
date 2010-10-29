@@ -266,7 +266,7 @@ function wfs_project_action(){
 				// load a json file.
 				
 				//Fetching the json data from WFS
-				$apiurl = "json/Projects/?wfspstart=0&wfsplimit=".PROJECT_LIMIT;
+				$apiurl = "json/Projects/";
 				$wfs_api = new Services_WFS($wfs_public_key,$wfs_private_key,$apiurl);
 				$jsonUrl = $wfs_api->wfs_getInfo_post();
 				//Creating JSON Instance
@@ -293,7 +293,7 @@ function wfs_project_action(){
 				}
 				//Delete all the projects that are not in the user accounts
 				
-				$apiurl = "xml/Projects/?wfspstart=0&wfsplimit=".PROJECT_LIMIT;
+				$apiurl = "xml/Projects/";
 				$wfs_api = new Services_WFS($wfs_public_key,$wfs_private_key,$apiurl);
 				$xmlData = $wfs_api->wfs_getInfo_post();
 				
