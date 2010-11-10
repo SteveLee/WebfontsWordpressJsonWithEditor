@@ -819,7 +819,7 @@ function wfs_front_head(){
 	$key = $project_array[0];	
 	if(!(wfs_visibility_checking($project_array[2]) xor $project_array[1]) ){
 	if($project_array[3] == 1){
-		echo '<link rel="stylesheet" href="'.FFCSSHDLRURI.$key.'" type="text/css" />\n';	
+		echo '<link rel="stylesheet" href="'.FFCSSURL.$key.'.css" type="text/css" />\n';
 	}else{
 		$script = '<script type="text/javascript" src="'.FFJSAPIURI.$key.'.js"></script>';
 		}
